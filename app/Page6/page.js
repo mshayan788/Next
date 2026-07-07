@@ -9,24 +9,26 @@ export default function page6() {
       {/* Header */}
 
       <nav className="navbar">
+        <div className="wrapper">
         <header>
           <div className="brand">
             <div className="logo-icon">S</div>
 
-            <div className="logo">
-              ScreenHunt
-            </div>
+            <div className="logo">ScreenHunt</div>
           </div>
 
           <div className="text">
             Powered by the TVMaze API
           </div>
         </header>
+        </div>
       </nav>
       {/*End of header*/}
 
-      <div className="container">
+<div className="wrapper">
 
+  
+     <div className="page2-container">
       <Link href="/">
 <button className="backBtn">← Back to search</button>
 </
@@ -51,7 +53,7 @@ Link>
 
           <div className="info">
 
-            <h1>Breaking The Band</h1>
+            <h1>Bradley Walsh & Son: Breaking Dad</h1>
 
             <div className="genres">
 
@@ -120,7 +122,7 @@ Explores the real life break-ups of popular music groups.
                    
                    <div>
                    <h4>Sammy Jonas Heaney</h4>
-                   <p>Brand</p>
+                   <p>    as Brand</p>
                    </div>
                    </div>
                  
@@ -134,7 +136,7 @@ Explores the real life break-ups of popular music groups.
                  />
                    <div>
                    <h4>Dee Snider</h4>
-                   <p>Self-Narrotor</p>
+                   <p>as Self-Narrotor</p>
                    </div>
                    </div>
        
@@ -148,7 +150,8 @@ Explores the real life break-ups of popular music groups.
                    />
                    <div>
                    <h4>Judy Ho</h4>
-                   <p>Self</p>
+                   <p>as Self</p>
+                   </div>
                    </div>
                    </div>
                    </div>

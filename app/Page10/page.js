@@ -4,24 +4,30 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="body">
+    <div className="pages-body">
+    
+
       <nav className="navbar">
+        <div className="wrapper">
         <header>
           <div className="brand">
             <div className="logo-icon">S</div>
 
-            <div className="logo">
-              ScreenHunt
-            </div>
+            <div className="logo">ScreenHunt</div>
           </div>
 
           <div className="text">
             Powered by the TVMaze API
           </div>
         </header>
+        </div>
       </nav>
 
-      <div className="container">
+      {/*Wrapper */}
+
+ <div className="page-wrapper">
+
+      <div className="page-container">
         <div className="heading-2">
           Find your next binge
         </div>
@@ -30,22 +36,22 @@ export default function Home() {
           Search thousands of TV shows. Type a title and hit search.
         </div>
 
-        <div className="search-container">
-          <div className="bar-1">
-            <input
-              type="text"
-              name="search"
-              placeholder="Search TV shows..."
-              className="search-bar"
-            />
-          </div>
+<div className="page-search-container">
+  <input
+    type="text"
+    name="page-search"
+    placeholder="Breaking Bad"
+    className="page-search-bar"
+  />
+  
 
-          <div className="button">
-            <button type="button">Search</button>
-          </div>
-        </div>
+  <button type="button" className="page-search-btn">
+    Search
+  </button>
+</div>
+</div>
 
-<div className="option">
+<div className="page-option">
   <Link href="/">
     <button type="button">ALL</button>
   </Link>
@@ -83,26 +89,39 @@ export default function Home() {
   </Link>
 </div>
 
-        <section className="movies">
+        <section className="pages-movies">
 
-
-          <div className="section-1">
+<Link href="/Page7">
+          <div className="page-section-1">
             <Image
-              src="/image/fifth.jpg"
-              alt="Bradley Walsh & Son: Breaking Dad"
+              src="/image/sixth.jpg"
+              alt="Breaking Dad: Britain's Unlikeliest Drug Dealer"
               width={186.6}
               height={280.1}
             />
 
-            <div className="info-1">
-              <h3>Bradley Walsh &amp; Son: Breaking Dad</h3>
-              <p>★ 5.0 • Adventure</p>
-            </div>
+  <div className="info-1">
+  <h3>Bradley Walsh &amp; Son: Breaking Dad</h3>
+  <div className="rating">
+    <span className="star">★</span>
+    <span className="score">5.0</span>
+    <span className="genre">Advanture</span>
+
+  </div>
+</div>
           </div>
+          </Link>
 
 
         </section>
+     </div>
+      <div className="page-footer">
+        <div className="wrapper">
+        <div className="page-footer-text">
+          ScreenHunt — a learning project · Data from TVMaze (free, no API key)
+        </div>
       </div>
+    </div>
     </div>
   );
 }

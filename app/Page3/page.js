@@ -4,28 +4,29 @@ import Image from "next/image";
 
 export default function page3() {
   return (
-   <div className="page">
+    <div className="page">
 
       {/* Header */}
 
       <nav className="navbar">
+        <div className="wrapper">
         <header>
           <div className="brand">
             <div className="logo-icon">S</div>
 
-            <div className="logo">
-              ScreenHunt
-            </div>
+            <div className="logo">ScreenHunt</div>
           </div>
 
           <div className="text">
             Powered by the TVMaze API
           </div>
         </header>
+        </div>
       </nav>
       {/*End of header*/}
 
-      <div className="container">
+<div className="wrapper">
+   <div className="page2-container">
 
 <Link href="/">
 <button className="backBtn">← Back to search</button>
@@ -64,11 +65,15 @@ Original Minisodes</h1>
 
             <hr />
 
-            <div className="stats">
+          <div className="stats">
 
               <div>
                 <p>RATING</p>
-                <h3>⭐ 7</h3>
+                <div className="rating">
+                <span className="star">★</span>
+                <span className="rating-value">7</span>
+                
+                </div>
               </div>
 
               <div>
@@ -125,7 +130,7 @@ Original Minisodes</h1>
                               
                               <div>
                               <h4>Bryan Cranston</h4>
-                              <p>Walter White</p>
+                              <p>as Walter White</p>
                               </div>
                               </div>
                             
@@ -139,7 +144,7 @@ Original Minisodes</h1>
                             />
                               <div>
                               <h4>Aaron Paul</h4>
-                              <p>Jesse Pinkman</p>
+                              <p>as Jesse Pinkman</p>
                               </div>
                               </div>
                               
@@ -155,7 +160,7 @@ Original Minisodes</h1>
                               />
                               <div>
                               <h4>Betsy Brandt</h4>
-                              <p>Marie</p>
+                              <p>as Marie</p>
                               </div>
                               </div>
                              
@@ -170,7 +175,7 @@ Original Minisodes</h1>
       
                                                       <div>
                                                       <h4>RJ Mitte</h4>
-                                                      <p>Jr White</p>
+                                                      <p>as Jr White</p>
                                                       </div>
                                                       </div>
                                                       
@@ -185,13 +190,14 @@ Original Minisodes</h1>
                                                     />
                                                       <div>
                                                       <h4>Matt Jones</h4>
-                                                      <p>Badger</p>
+                                                      <p>as Badger</p>
                                                       </div>
                                                       </div>
                                           
                                           
                                                       
                                                      
+      </div>
       </div>
       </div>
       </div>

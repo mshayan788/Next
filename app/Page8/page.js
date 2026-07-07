@@ -9,23 +9,26 @@ export default function page8() {
       {/* Header */}
 
       <nav className="navbar">
+        <div className="wrapper">
         <header>
           <div className="brand">
             <div className="logo-icon">S</div>
 
-            <div className="logo">
-              ScreenHunt
-            </div>
+            <div className="logo">ScreenHunt</div>
           </div>
 
           <div className="text">
             Powered by the TVMaze API
           </div>
         </header>
+        </div>
       </nav>
       {/*End of header*/}
 
-      <div className="container">
+<div className="wrapper">
+
+  
+    <div className="page2-container">
 
      <Link href="/">
 <button className="backBtn">← Back to search</button>
@@ -50,9 +53,7 @@ export default function page8() {
 
           <div className="info">
 
-            <h1>Breaking Dad:
-Britain's Unlikeliest
-Drug Dealer</h1>
+            <h1>     Baking Mad with Eric Lanlard  </h1>
 
             <div className="genres">
 
@@ -113,6 +114,7 @@ Middle-aged coin dealer Richard Lubbock becomes an unexpected drug kingpin when 
 
           </div>
 
+        </div>
         </div>
 
   );

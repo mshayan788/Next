@@ -4,48 +4,54 @@
           
           export default function Home() {
             return (
-              <div className="body">
-                <nav className="navbar">
-                  <header>
-                    <div className="brand">
-                      <div className="logo-icon">S</div>
+    <div className="pages-body">
+    
+
+      <nav className="navbar">
+        <div className="wrapper">
+        <header>
+          <div className="brand">
+            <div className="logo-icon">S</div>
+
+            <div className="logo">ScreenHunt</div>
+          </div>
+
+          <div className="text">
+            Powered by the TVMaze API
+          </div>
+        </header>
+        </div>
+      </nav>
+
+      {/*Wrapper */}
+
+ <div className="page-wrapper">
+
+      <div className="page-container">
+        <div className="heading-2">
+          Find your next binge
+        </div>
+
+        <div className="text-2">
+          Search thousands of TV shows. Type a title and hit search.
+        </div>
+
+<div className="page-search-container">
+  <input
+    type="text"
+    name="page-search"
+    placeholder="Breaking Bad"
+    className="page-search-bar"
+  />
+  
+
+  <button type="button" className="page-search-btn">
+    Search
+  </button>
+</div>
+</div>
           
-                      <div className="logo">
-                        ScreenHunt
-                      </div>
-                    </div>
-          
-                    <div className="text">
-                      Powered by the TVMaze API
-                    </div>
-                  </header>
-                </nav>
-          
-                <div className="container">
-                  <div className="heading-2">
-                    Find your next binge
-                  </div>
-          
-                  <div className="text-2">
-                    Search thousands of TV shows. Type a title and hit search.
-                  </div>
-          
-                  <div className="search-container">
-                    <div className="bar-1">
-                      <input
-                        type="text"
-                        name="search"
-                        placeholder="Search TV shows..."
-                        className="search-bar"
-                      />
-                    </div>
-          
-                    <div className="button">
-                      <button type="button">Search</button>
-                    </div>
-                  </div>
-          
-<div className="option">
+<div className="page-option">
   <Link href="/">
     <button type="button">ALL</button>
   </Link>
@@ -84,8 +90,9 @@
 </div>
           
 
-                </div>
-              </div>
+                 </div>
+
+    </div>
             );
           }
           

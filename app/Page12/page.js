@@ -4,48 +4,54 @@
           
           export default function Home() {
             return (
-              <div className="body">
-                <nav className="navbar">
-                  <header>
-                    <div className="brand">
-                      <div className="logo-icon">S</div>
+    <div className="pages-body">
+    
+
+      <nav className="navbar">
+        <div className="wrapper">
+        <header>
+          <div className="brand">
+            <div className="logo-icon">S</div>
+
+            <div className="logo">ScreenHunt</div>
+          </div>
+
+          <div className="text">
+            Powered by the TVMaze API
+          </div>
+        </header>
+        </div>
+      </nav>
+
+      {/*Wrapper */}
+
+ <div className="page-wrapper">
+
+      <div className="page-container">
+        <div className="heading-2">
+          Find your next binge
+        </div>
+
+        <div className="text-2">
+          Search thousands of TV shows. Type a title and hit search.
+        </div>
+
+<div className="page-search-container">
+  <input
+    type="text"
+    name="page-search"
+    placeholder="Breaking Bad"
+    className="page-search-bar"
+  />
+  
+
+  <button type="button" className="page-search-btn">
+    Search
+  </button>
+</div>
+</div>
           
-                      <div className="logo">
-                        ScreenHunt
-                      </div>
-                    </div>
-          
-                    <div className="text">
-                      Powered by the TVMaze API
-                    </div>
-                  </header>
-                </nav>
-          
-                <div className="container">
-                  <div className="heading-2">
-                    Find your next binge
-                  </div>
-          
-                  <div className="text-2">
-                    Search thousands of TV shows. Type a title and hit search.
-                  </div>
-          
-                  <div className="search-container">
-                    <div className="bar-1">
-                      <input
-                        type="text"
-                        name="search"
-                        placeholder="Search TV shows..."
-                        className="search-bar"
-                      />
-                    </div>
-          
-                    <div className="button">
-                      <button type="button">Search</button>
-                    </div>
-                  </div>
-          
- <div className="option">
+<div className="page-option">
   <Link href="/">
     <button type="button">ALL</button>
   </Link>
@@ -83,27 +89,39 @@
   </Link>
 </div>
           
-                  <section className="movies">
+                  <section className="pages-movies">
           
-          
- <div className="section-1">
+          <Link href="/Page8">
+            <div className="page-section-1">
             <Image
-              src="/image/sixth.jpg"
-              alt="Breaking Dad: Britain's Unlikeliest Drug Dealer"
+              src="/image/seventh.jpg"
+              alt="Baking Mad with Eric Lanlard"
               width={186.6}
               height={280.1}
             />
 
-            <div className="info-1">
-              <h3>Breaking Dad: Britain Drug Dealer</h3>
-              <p>Not rated • Crime</p>
-            </div>
-          </div>
+  <div className="info-1">
+<h3>Breaking Dad: Britain's Unlikeliest Drug Dealer</h3>
+  <div className="rating">
+    <span className="genre">Not Rated</span>
+    <span className="genre">Crime</span>
+
+  </div>
+</div>
+</div>
+</Link>
           
           
                   </section>
-                </div>
-              </div>
+                  </div>
+      <div className="page-footer">
+        <div className="wrapper">
+        <div className="page-footer-text">
+          ScreenHunt — a learning project · Data from TVMaze (free, no API key)
+        </div>
+      </div>
+    </div>
+    </div>
             );
           }
           

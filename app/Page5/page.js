@@ -9,24 +9,26 @@ export default function page5() {
       {/* Header */}
 
       <nav className="navbar">
+        <div className="wrapper">
         <header>
           <div className="brand">
             <div className="logo-icon">S</div>
 
-            <div className="logo">
-              ScreenHunt
-            </div>
+            <div className="logo">ScreenHunt</div>
           </div>
 
           <div className="text">
             Powered by the TVMaze API
           </div>
         </header>
+        </div>
       </nav>
       {/*End of header*/}
 
-      <div className="container">
+<div className="wrapper">
 
+  
+      <div className="page2-container">
         <Link href="/">
 <button className="backBtn">← Back to search</button>
 </Link>
@@ -117,7 +119,7 @@ export default function page5() {
                         
                         <div>
                         <h4>Sammy Jonas Heaney</h4>
-                        <p>Brand</p>
+                        <p>as Brand</p>
                         </div>
                         </div>
                       
@@ -131,7 +133,7 @@ export default function page5() {
                       />
                         <div>
                         <h4>Dee Snider</h4>
-                        <p>Self-Narrotor</p>
+                        <p>as Self-Narrotor</p>
                         </div>
                         </div>
             
@@ -145,7 +147,8 @@ export default function page5() {
                         />
                         <div>
                         <h4>Judy Ho</h4>
-                        <p>Self</p>
+                        <p>as Self</p>
+                        </div>
                         </div>
                         </div>
                         </div>

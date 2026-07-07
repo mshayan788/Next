@@ -9,23 +9,26 @@ export default function page7() {
       {/* Header */}
 
       <nav className="navbar">
+        <div className="wrapper">
         <header>
           <div className="brand">
             <div className="logo-icon">S</div>
 
-            <div className="logo">
-              ScreenHunt
-            </div>
+            <div className="logo">ScreenHunt</div>
           </div>
 
           <div className="text">
             Powered by the TVMaze API
           </div>
         </header>
+        </div>
       </nav>
       {/*End of header*/}
 
-      <div className="container">
+<div className="wrapper">
+
+  
+    <div className="page2-container">
 
      <Link href="/">
 <button className="backBtn">← Back to search</button>
@@ -50,8 +53,7 @@ export default function page7() {
 
           <div className="info">
 
-            <h1>Bradley Walsh & Son:
-Breaking Dad</h1>
+            <h1>Breaking Dad: Britain Drug Dealer</h1>
 
             <div className="genres">
 
@@ -63,11 +65,15 @@ Breaking Dad</h1>
 
             <hr />
 
-            <div className="stats">
+             <div className="stats">
 
               <div>
                 <p>RATING</p>
-                <h3>★ 5</h3>
+                <div className="rating">
+                <span className="star">★</span>
+                <span className="rating-value">5</span>
+                
+                </div>
               </div>
 
               <div>
@@ -121,7 +127,7 @@ Bradley Walsh is not interested in travelling the world, unlike his son Barney. 
                    
                    <div>
                    <h4>Bradley Walsh</h4>
-                   <p>Self</p>
+                   <p>as Self</p>
                    </div>
                    </div>
                  
@@ -135,7 +141,7 @@ Bradley Walsh is not interested in travelling the world, unlike his son Barney. 
                  />
                    <div>
                    <h4>Alexander Armstrong</h4>
-                   <p>Self-Narrotor</p>
+                   <p>as Self-Narrotor</p>
                    </div>
                    </div>
        
@@ -149,7 +155,8 @@ Bradley Walsh is not interested in travelling the world, unlike his son Barney. 
                    />
                    <div>
                    <h4>Danilo Pérez</h4>
-                   <p>Self</p>
+                   <p>as Self</p>
+                   </div>
                    </div>
                    </div>
                    </div>

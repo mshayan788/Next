@@ -9,23 +9,26 @@ export default function page4() {
       {/* Header */}
 
       <nav className="navbar">
+        <div className="wrapper">
         <header>
           <div className="brand">
             <div className="logo-icon">S</div>
 
-            <div className="logo">
-              ScreenHunt
-            </div>
+            <div className="logo">ScreenHunt</div>
           </div>
 
           <div className="text">
             Powered by the TVMaze API
           </div>
         </header>
+        </div>
       </nav>
       {/*End of header*/}
 
-      <div className="container">
+<div className="wrapper">
+
+  
+     <div className="page2-container">
 
 <Link href="/">
 <button className="backBtn">← Back to search</button>
@@ -121,7 +124,7 @@ export default function page4() {
                         
                         <div>
                         <h4>Bryan Cranston</h4>
-                        <p>Walter White</p>
+                        <p>as Walter White</p>
                         </div>
                         </div>
                       
@@ -135,7 +138,7 @@ export default function page4() {
                       />
                         <div>
                         <h4>Aaron Paul</h4>
-                        <p>Jesse Pinkman</p>
+                        <p>as Jesse Pinkman</p>
                         </div>
                         </div>
                         
@@ -151,7 +154,7 @@ export default function page4() {
                         />
                         <div>
                         <h4>Betsy Brandt</h4>
-                        <p>Marie</p>
+                        <p>as Marie</p>
                         </div>
                         </div>
                        
@@ -166,7 +169,7 @@ export default function page4() {
 
                                                 <div>
                                                 <h4>RJ Mitte</h4>
-                                                <p>Jr White</p>
+                                                <p>as Jr White</p>
                                                 </div>
                                                 </div>
                                                 
@@ -181,13 +184,14 @@ export default function page4() {
                                               />
                                                 <div>
                                                 <h4>Matt Jones</h4>
-                                                <p>Badger</p>
+                                                <p>as Badger</p>
                                                 </div>
                                                 </div>
                                     
                                     
                                                 
                                                
+</div>
 </div>
 </div>
 </div>
