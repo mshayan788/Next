@@ -117,90 +117,93 @@ Original Minisodes</h1>
               <div className="castSection">
                   
                             <h2>Cast</h2>
-                  
-                            <div className="castContainer">
-                  
-                              <div className="castCard">
-                              <Image
-                              src="/image/white.png"
-                              alt="white"
-                              width={180}
-                              height={250}
-                              />
-                              
-                              <div>
-                              <h4>Bryan Cranston</h4>
-                              <p>as Walter White</p>
-                              </div>
-                              </div>
-                            
-                  
-                              <div className="castCard">
-                            <Image
-                            src="/image/paul.png"
-                            alt="paul"
-                            width={180}
-                            height={250}
-                            />
-                              <div>
-                              <h4>Aaron Paul</h4>
-                              <p>as Jesse Pinkman</p>
-                              </div>
-                              </div>
-                              
-                              
-                  
-                  
-                              <div className="castCard">
-                              <Image
-                              src="/image/betsy.png"
-                              alt="betsy"
-                              width={180}
-                              height={250}
-                              />
-                              <div>
-                              <h4>Betsy Brandt</h4>
-                              <p>as Marie</p>
-                              </div>
-                              </div>
-                             
-      
-                                                      <div className="castCard">
-                                                      <Image
-                                                      src="/image/jr.png"
-                                                      alt="jr"
-                                                      width={180}
-                                                      height={250}
-                                                      />
-      
-                                                      <div>
-                                                      <h4>RJ Mitte</h4>
-                                                      <p>as Jr White</p>
-                                                      </div>
-                                                      </div>
-                                                      
-                                                    
-                                          
-                                                      <div className="castCard">
-                                                    <Image
-                                                    src="/image/matt.png"
-                                                    alt="matt"
-                                                    width={180}
-                                                    height={250}
-                                                    />
-                                                      <div>
-                                                      <h4>Matt Jones</h4>
-                                                      <p>as Badger</p>
-                                                      </div>
-                                                      </div>
-                                          
-                                          
-                                                      
+                                           
+                                                     <div className="castContainer">
+                                           
+                                                       <div className="castCard">
+                                                       <Image
+                                                       src="/image/white.png"
+                                                       alt="white"
+                                                       width={180}
+                                                       height={250}
+                                                       />
+                                                       
+                                                       <div>
+                                                       <h4>Bryan Cranston</h4>
+                                                       <p>as Walter White</p>
+                                                       </div>
+                                                       </div>
                                                      
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-  );
-}
+                                           
+                                                       <div className="castCard">
+                                                     <Image
+                                                     src="/image/paul.jpg"
+                                                     alt="paul"
+                                                     width={180}
+                                                     height={250}
+                                                     />
+                                                       <div>
+                                                       <h4>Aaron Paul</h4>
+                                                       <p>as Jesse Pinkman</p>
+                                                       </div>
+                                                       </div>
+                                                       
+                                                         <div className="castCard">
+                                                                               <Image
+                                                                               src="/image/gun.png"
+                                                                               alt="gun"
+                                                                               width={180}
+                                                                               height={250}
+                                                                               />
+                               
+                                                                               <div>
+                                                                               <h4>Anna Gun</h4>
+                                                                               <p>as Mrs White</p>
+                                                                               </div>
+                                                                               </div>
+                           
+                                                                              <div className="castCard">
+                                                                               <Image
+                                                                               src="/image/jr.png"
+                                                                               alt="jr"
+                                                                               width={180}
+                                                                               height={250}
+                                                                               />
+                               
+                                                                               <div>
+                                                                               <h4>RJ Mitte</h4>
+                                                                               <p>as Jr White</p>
+                                                                               </div>
+                                                                               </div>
+                                                                              <div className="castCard">
+                                                                             <Image
+                                                                             src="/image/daen.jpg"
+                                                                             alt="matt"
+                                                                             width={180}
+                                                                             height={250}
+                                                                             />
+                                                                               <div>
+                                                                               <h4>Dean Norris</h4>
+                                                                               <p>as hank</p>
+                                                                               </div>
+                                                                               </div>
+                                           
+                                                       <div className="castCard">
+                                                       <Image
+                                                       src="/image/betsy.png"
+                                                       alt="betsy"
+                                                       width={180}
+                                                       height={250}
+                                                       />
+                                                       <div>
+                                                       <h4>Betsy Brandt</h4>
+                                                       <p> as marie</p>
+                                                       </div>
+                                                       </div>                                         
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+                               </div>
+                             );
+                           }
